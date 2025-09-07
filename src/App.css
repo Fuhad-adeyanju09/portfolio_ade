@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+nav{
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+  ul{
+    li{
+        transition: all 0.3s;
+    }
+    li:hover{
+      color: rgb(181, 181, 181);
+    }
+  }
+}
+#shiny{
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
